@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NOVA Cyber Masters Learning Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">UNSW-inspired / NOVA-built</p>
+    <h1>Cyber Masters Learning Platform</h1>
+    <p>A practical learning system to study Master of Cyber Security topics: security engineering, governance, operations, forensics, pentesting, cloud, law, risk and capstone portfolio work.</p>
+    <div class="hero-actions">
+      <button id="exportBtn">Export progress</button>
+      <button id="resetBtn" class="secondary">Reset demo</button>
+      <a class="button secondary" href="COURSE_GUIDE.md">Course guide</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats" id="stats"></section>
+
+    <section class="planner panel">
+      <h2>Build your study plan</h2>
+      <div class="form-grid">
+        <label>Track
+          <select id="track">
+            <option value="security-engineering">Security Engineering</option>
+            <option value="management-leadership">Security Management & Leadership</option>
+          </select>
+        </label>
+        <label>Weeks
+          <input id="weeks" type="number" min="4" max="52" value="24" />
+        </label>
+        <label>Hours/week
+          <input id="hours" type="number" min="2" max="30" value="8" />
+        </label>
+      </div>
+      <button id="planBtn">Generate plan</button>
+      <pre id="planOutput"></pre>
+    </section>
+
+    <section>
+      <h2>Learning modules</h2>
+      <div class="filters">
+        <button data-filter="all">All</button>
+        <button data-filter="core">Core</button>
+        <button data-filter="technical">Technical</button>
+        <button data-filter="management">Management</button>
+        <button data-filter="operations">Operations</button>
+        <button data-filter="capstone">Capstone</button>
+      </div>
+      <div id="modules" class="grid"></div>
+    </section>
+
+    <section class="grid two">
+      <article class="panel">
+        <h2>Quick lab</h2>
+        <select id="labSelect">
+          <option value="incident-response-home-lab">Incident Response Home Lab</option>
+          <option value="web-pentest-lab">Web Pentest Lab</option>
+          <option value="forensics-lab">Forensics Lab</option>
+        </select>
+        <button id="labBtn">Load lab</button>
+        <div id="labOutput"></div>
+      </article>
+      <article class="panel">
+        <h2>Quiz trainer</h2>
+        <select id="quizSelect">
+          <option value="network-security">Network Security</option>
+          <option value="security-engineering">Security Engineering</option>
+        </select>
+        <button id="quizBtn">Load quiz</button>
+        <div id="quizOutput"></div>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>Today’s recommendation</h2>
+      <div class="form-grid">
+        <label>Weak area
+          <input id="weakArea" value="linux" />
+        </label>
+        <label>Minutes available
+          <input id="minutes" type="number" value="45" />
+        </label>
+      </div>
+      <button id="recommendBtn">Recommend action</button>
+      <pre id="recommendOutput"></pre>
+    </section>
+
+    <section class="panel">
+      <h2>Course material library</h2>
+      <p>Curated legal/free-first resources mapped to Security Engineering. Start with Priority A.</p>
+      <a class="button secondary" href="COURSE_MATERIALS.md">Open full material guide</a>
+      <div id="resources" class="grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built for Matt Donnelly in Perth. This is not UNSW official material; it is a practical study platform mapped to the UNSW Master of Cyber Security guide and common cyber masters curriculum.</p>
+  </footer>
+
+  <script src="app.logic.js"></script>
+  <script src="app.ui.js"></script>
+</body>
+</html>

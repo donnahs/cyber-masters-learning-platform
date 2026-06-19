@@ -1,0 +1,152 @@
+[
+  {
+    "priority": "A",
+    "provider": "MIT OpenCourseWare",
+    "title": "Computer Systems Security 6.5660 / 6.858",
+    "url": "https://ocw.mit.edu/courses/6-5660-computer-systems-security-spring-2024",
+    "area": "systems security, operating system security, secure design",
+    "useFor": "Main security engineering backbone: threat models, secure systems, privilege separation, crypto protocols, web/mobile security.",
+    "moduleMap": ["principles-security-engineering", "network-security", "linux-security"],
+    "notes": "Free OCW material. Strong masters-level course; use papers/labs as stretch material."
+  },
+  {
+    "priority": "A",
+    "provider": "PortSwigger",
+    "title": "Web Security Academy",
+    "url": "https://portswigger.net/web-security",
+    "area": "web security, penetration testing, application security",
+    "useFor": "Hands-on legal labs for SQLi, XSS, CSRF, auth, SSRF, request smuggling, JWT, GraphQL and modern web vulns.",
+    "moduleMap": ["penetration-testing", "advanced-penetration-testing"],
+    "notes": "Use Burp Suite Community Edition. Stay inside the provided labs only."
+  },
+  {
+    "priority": "A",
+    "provider": "OpenSecurityTraining2",
+    "title": "Architecture 1001: x86-64 Assembly",
+    "url": "https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about",
+    "area": "assembly, low-level computing, reverse engineering foundation",
+    "useFor": "Foundation for C/assembler, OS internals, exploit development and reverse engineering.",
+    "moduleMap": ["fundamentals-c-assembler", "reverse-engineering"],
+    "notes": "Large course; do slowly. Good fit for Matt's electronics/instrumentation brain."
+  },
+  {
+    "priority": "A",
+    "provider": "OpenSecurityTraining2",
+    "title": "OpenSecurityTraining course catalogue",
+    "url": "https://opensecuritytraining.info/Training.html",
+    "area": "reverse engineering, secure coding, malware analysis, exploits, crypto",
+    "useFor": "Pick modules: Intro Secure Coding, Vulnerability Assessment, Pcap Analysis, Malware Dynamic Analysis, Reverse Engineering.",
+    "moduleMap": ["reverse-engineering", "advanced-penetration-testing", "network-security"],
+    "notes": "Older mirror points to OST2 where possible; still useful catalogue."
+  },
+  {
+    "priority": "A",
+    "provider": "Palo Alto Networks",
+    "title": "Free Cybersecurity Education Courses",
+    "url": "https://www.paloaltonetworks.com/cyberpedia/free-cybersecurity-education-courses",
+    "area": "network security, cloud security, SOC fundamentals",
+    "useFor": "Beginner-friendly structured units for network security, cloud security and SOC concepts.",
+    "moduleMap": ["network-security", "cloud-security", "cyber-operations"],
+    "notes": "Requires free Beacon account. Good quick wins after work."
+  },
+  {
+    "priority": "A",
+    "provider": "NIST CSRC",
+    "title": "Incident Response project and SP 800-61 Rev. 3",
+    "url": "https://csrc.nist.gov/projects/incident-response",
+    "area": "incident response, risk management, governance",
+    "useFor": "Build incident response playbooks and map response to CSF 2.0 functions.",
+    "moduleMap": ["incident-response", "cyber-risk-resilience", "cyber-management-governance"],
+    "notes": "Use as professional reference for portfolio-quality IR plan."
+  },
+  {
+    "priority": "A",
+    "provider": "Sleuth Kit Labs",
+    "title": "DFIR Training catalogue",
+    "url": "https://training.sleuthkitlabs.com",
+    "area": "digital forensics, incident response, Autopsy, Cyber Triage",
+    "useFor": "DFIR process, Autopsy basics, insider threat workshops and case-style investigations.",
+    "moduleMap": ["digital-forensics", "incident-response"],
+    "notes": "Mix of free and paid. Use free workshops first."
+  },
+  {
+    "priority": "B",
+    "provider": "Autopsy / Sleuth Kit",
+    "title": "Autopsy Digital Forensics Platform",
+    "url": "https://www.sleuthkit.org/autopsy",
+    "area": "digital forensics tooling",
+    "useFor": "Install and practice evidence ingestion, timelines, keywords, hashes and report generation.",
+    "moduleMap": ["digital-forensics"],
+    "notes": "Open-source forensic platform. Use legal practice images only."
+  },
+  {
+    "priority": "B",
+    "provider": "OWASP",
+    "title": "OWASP WebGoat",
+    "url": "https://owasp.org/www-project-webgoat/",
+    "area": "web security, application security lab",
+    "useFor": "Local vulnerable web app for legal practice in appsec concepts.",
+    "moduleMap": ["penetration-testing"],
+    "notes": "Run locally in a controlled lab environment."
+  },
+  {
+    "priority": "B",
+    "provider": "OWASP",
+    "title": "OWASP Top 10",
+    "url": "https://owasp.org/www-project-top-ten/",
+    "area": "application security risks",
+    "useFor": "Baseline risk model for web app security reviews and capstone reports.",
+    "moduleMap": ["principles-security-engineering", "penetration-testing"],
+    "notes": "Use for report structure and risk language."
+  },
+  {
+    "priority": "B",
+    "provider": "TryHackMe",
+    "title": "Pre Security / Cyber Security learning paths",
+    "url": "https://tryhackme.com/paths",
+    "area": "guided labs, Linux, networking, SOC, pentesting",
+    "useFor": "Beginner-to-intermediate hands-on practice when you want guided rooms.",
+    "moduleMap": ["network-security", "linux-security", "cyber-operations"],
+    "notes": "Some free, some paid. Good for momentum."
+  },
+  {
+    "priority": "B",
+    "provider": "Hack The Box Academy",
+    "title": "Cybersecurity modules",
+    "url": "https://academy.hackthebox.com/",
+    "area": "pentesting, Linux, web, privilege escalation",
+    "useFor": "Deeper hands-on practice after PortSwigger basics.",
+    "moduleMap": ["penetration-testing", "advanced-penetration-testing", "linux-security"],
+    "notes": "Use authorised academy labs only."
+  },
+  {
+    "priority": "C",
+    "provider": "Google Cloud Skills Boost",
+    "title": "Cloud security labs",
+    "url": "https://www.cloudskillsboost.google/catalog?keywords=security",
+    "area": "cloud security, IAM, logging, cloud operations",
+    "useFor": "Cloud security lab practice and IAM/logging concepts.",
+    "moduleMap": ["cloud-security"],
+    "notes": "Can be paid/credit-based; use selectively."
+  },
+  {
+    "priority": "C",
+    "provider": "Microsoft Learn",
+    "title": "Security, compliance, and identity training",
+    "url": "https://learn.microsoft.com/en-us/training/browse/?roles=security-engineer",
+    "area": "cloud security, identity, SOC, Microsoft security stack",
+    "useFor": "Career-friendly material for Azure/Microsoft security roles.",
+    "moduleMap": ["cloud-security", "cyber-operations", "cyber-management-governance"],
+    "notes": "Good if targeting security analyst or cloud security jobs."
+  },
+  {
+    "priority": "C",
+    "provider": "Professor Messer",
+    "title": "Security+ free videos",
+    "url": "https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/",
+    "area": "security foundations, exam review",
+    "useFor": "Fast review of broad security concepts when a masters topic feels too abstract.",
+    "moduleMap": ["orientation", "data-security-privacy", "cybersecurity-ethics"],
+    "notes": "Not masters-level by itself; good foundation filler."
+  }
+]

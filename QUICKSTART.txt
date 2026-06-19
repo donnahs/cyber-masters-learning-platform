@@ -1,0 +1,25 @@
+QUICKSTART
+
+1. Open this folder:
+   /home/donnahs/projects/_active/cyber-masters-learning-platform
+
+2. Run:
+   python3 -m http.server 8920 --bind 0.0.0.0
+
+3. Open:
+   http://127.0.0.1:8920/
+
+4. On phone/Tailscale, use the IP NOVA reports after verification.
+
+5. Click:
+   - Generate plan
+   - Load lab
+   - Load quiz
+   - Mark modules complete
+   - Export progress
+
+6. First study module:
+   Network Security
+
+7. First portfolio output:
+   Home network threat model
